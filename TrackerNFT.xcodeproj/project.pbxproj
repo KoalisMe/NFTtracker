@@ -13,6 +13,20 @@
 		006D150427F0777800D024FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006D150227F0777800D024FB /* Main.storyboard */; };
 		006D150627F0777800D024FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006D150527F0777800D024FB /* Assets.xcassets */; };
 		006D150927F0777800D024FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006D150727F0777800D024FB /* LaunchScreen.storyboard */; };
+		006D151227F07A5400D024FB /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D151127F07A5400D024FB /* HTTPRequest.swift */; };
+		006D151427F07AA600D024FB /* HTTPPathPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D151327F07AA600D024FB /* HTTPPathPattern.swift */; };
+		006D151627F07C8900D024FB /* CollectionStatsHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D151527F07C8900D024FB /* CollectionStatsHTTPRequest.swift */; };
+		006D151827F07D7F00D024FB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D151727F07D7F00D024FB /* Constants.swift */; };
+		006D151A27F0808C00D024FB /* NetworkAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D151927F0808C00D024FB /* NetworkAssembly.swift */; };
+		006D151E27F0827300D024FB /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D151D27F0827300D024FB /* URLRequestBuilder.swift */; };
+		006D152027F088E500D024FB /* BackendRequestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D151F27F088E500D024FB /* BackendRequestExecutor.swift */; };
+		006D152227F0892D00D024FB /* URLRequestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D152127F0892D00D024FB /* URLRequestExecutor.swift */; };
+		006D152627F0899200D024FB /* ResponseMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D152527F0899200D024FB /* ResponseMapper.swift */; };
+		006D152C27F08AF200D024FB /* URLResponseErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D152B27F08AF200D024FB /* URLResponseErrorHandler.swift */; };
+		006D152F27F08D8300D024FB /* CollectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D152E27F08D8300D024FB /* CollectionService.swift */; };
+		006D153127F08DF000D024FB /* CollectionStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D153027F08DF000D024FB /* CollectionStats.swift */; };
+		006D153327F0910900D024FB /* ServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D153227F0910900D024FB /* ServiceAssembly.swift */; };
+		727106F879B9C7E901A7FB23 /* Pods_TrackerNFT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CEC4C474A0272FFF7442BD /* Pods_TrackerNFT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,22 @@
 		006D150527F0777800D024FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		006D150827F0777800D024FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		006D150A27F0777800D024FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		006D151127F07A5400D024FB /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		006D151327F07AA600D024FB /* HTTPPathPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPPathPattern.swift; sourceTree = "<group>"; };
+		006D151527F07C8900D024FB /* CollectionStatsHTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionStatsHTTPRequest.swift; sourceTree = "<group>"; };
+		006D151727F07D7F00D024FB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		006D151927F0808C00D024FB /* NetworkAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAssembly.swift; sourceTree = "<group>"; };
+		006D151D27F0827300D024FB /* URLRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestBuilder.swift; sourceTree = "<group>"; };
+		006D151F27F088E500D024FB /* BackendRequestExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendRequestExecutor.swift; sourceTree = "<group>"; };
+		006D152127F0892D00D024FB /* URLRequestExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestExecutor.swift; sourceTree = "<group>"; };
+		006D152527F0899200D024FB /* ResponseMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseMapper.swift; sourceTree = "<group>"; };
+		006D152B27F08AF200D024FB /* URLResponseErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLResponseErrorHandler.swift; sourceTree = "<group>"; };
+		006D152E27F08D8300D024FB /* CollectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionService.swift; sourceTree = "<group>"; };
+		006D153027F08DF000D024FB /* CollectionStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionStats.swift; sourceTree = "<group>"; };
+		006D153227F0910900D024FB /* ServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAssembly.swift; sourceTree = "<group>"; };
+		00CF4D6E97B3CFBE3ADF2838 /* Pods-TrackerNFT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackerNFT.release.xcconfig"; path = "Target Support Files/Pods-TrackerNFT/Pods-TrackerNFT.release.xcconfig"; sourceTree = "<group>"; };
+		0A6E03CF231452FEEBB43946 /* Pods-TrackerNFT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackerNFT.debug.xcconfig"; path = "Target Support Files/Pods-TrackerNFT/Pods-TrackerNFT.debug.xcconfig"; sourceTree = "<group>"; };
+		F2CEC4C474A0272FFF7442BD /* Pods_TrackerNFT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackerNFT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				727106F879B9C7E901A7FB23 /* Pods_TrackerNFT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +73,8 @@
 			children = (
 				006D14FB27F0777800D024FB /* TrackerNFT */,
 				006D14FA27F0777800D024FB /* Products */,
+				881205D296E7091012CBD797 /* Pods */,
+				555F6273D6B3CC81FAAD475D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +90,124 @@
 			isa = PBXGroup;
 			children = (
 				006D14FC27F0777800D024FB /* AppDelegate.swift */,
-				006D14FE27F0777800D024FB /* SceneDelegate.swift */,
 				006D150027F0777800D024FB /* ViewController.swift */,
-				006D150227F0777800D024FB /* Main.storyboard */,
-				006D150527F0777800D024FB /* Assets.xcassets */,
-				006D150727F0777800D024FB /* LaunchScreen.storyboard */,
+				006D152927F08A2F00D024FB /* Global */,
+				006D152727F089AC00D024FB /* Models */,
+				006D152D27F08D3D00D024FB /* Services */,
+				006D151027F07A4100D024FB /* Network */,
+				006D152827F08A0600D024FB /* Supporting Files */,
+				006D14FE27F0777800D024FB /* SceneDelegate.swift */,
 				006D150A27F0777800D024FB /* Info.plist */,
 			);
 			path = TrackerNFT;
+			sourceTree = "<group>";
+		};
+		006D151027F07A4100D024FB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				006D151927F0808C00D024FB /* NetworkAssembly.swift */,
+				006D151C27F0816200D024FB /* API */,
+				006D151B27F080DF00D024FB /* Requests */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		006D151B27F080DF00D024FB /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				006D151127F07A5400D024FB /* HTTPRequest.swift */,
+				006D151327F07AA600D024FB /* HTTPPathPattern.swift */,
+				006D151527F07C8900D024FB /* CollectionStatsHTTPRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		006D151C27F0816200D024FB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				006D152427F0894500D024FB /* Builder */,
+				006D152A27F08AE900D024FB /* Errorhandler */,
+				006D152327F0893A00D024FB /* Executor */,
+				006D152527F0899200D024FB /* ResponseMapper.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		006D152327F0893A00D024FB /* Executor */ = {
+			isa = PBXGroup;
+			children = (
+				006D151F27F088E500D024FB /* BackendRequestExecutor.swift */,
+				006D152127F0892D00D024FB /* URLRequestExecutor.swift */,
+			);
+			path = Executor;
+			sourceTree = "<group>";
+		};
+		006D152427F0894500D024FB /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				006D151D27F0827300D024FB /* URLRequestBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		006D152727F089AC00D024FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				006D153027F08DF000D024FB /* CollectionStats.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		006D152827F08A0600D024FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				006D150227F0777800D024FB /* Main.storyboard */,
+				006D150527F0777800D024FB /* Assets.xcassets */,
+				006D150727F0777800D024FB /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		006D152927F08A2F00D024FB /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				006D151727F07D7F00D024FB /* Constants.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		006D152A27F08AE900D024FB /* Errorhandler */ = {
+			isa = PBXGroup;
+			children = (
+				006D152B27F08AF200D024FB /* URLResponseErrorHandler.swift */,
+			);
+			path = Errorhandler;
+			sourceTree = "<group>";
+		};
+		006D152D27F08D3D00D024FB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				006D153227F0910900D024FB /* ServiceAssembly.swift */,
+				006D152E27F08D8300D024FB /* CollectionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		555F6273D6B3CC81FAAD475D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2CEC4C474A0272FFF7442BD /* Pods_TrackerNFT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		881205D296E7091012CBD797 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E03CF231452FEEBB43946 /* Pods-TrackerNFT.debug.xcconfig */,
+				00CF4D6E97B3CFBE3ADF2838 /* Pods-TrackerNFT.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 006D150D27F0777800D024FB /* Build configuration list for PBXNativeTarget "TrackerNFT" */;
 			buildPhases = (
+				16430B3F56D81483CE02CD68 /* [CP] Check Pods Manifest.lock */,
 				006D14F527F0777800D024FB /* Sources */,
 				006D14F627F0777800D024FB /* Frameworks */,
 				006D14F727F0777800D024FB /* Resources */,
+				378DDF9A36F808F042DFB17E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +278,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16430B3F56D81483CE02CD68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrackerNFT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		378DDF9A36F808F042DFB17E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrackerNFT/Pods-TrackerNFT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrackerNFT/Pods-TrackerNFT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrackerNFT/Pods-TrackerNFT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		006D14F527F0777800D024FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006D151627F07C8900D024FB /* CollectionStatsHTTPRequest.swift in Sources */,
+				006D153327F0910900D024FB /* ServiceAssembly.swift in Sources */,
+				006D152027F088E500D024FB /* BackendRequestExecutor.swift in Sources */,
+				006D152227F0892D00D024FB /* URLRequestExecutor.swift in Sources */,
+				006D152F27F08D8300D024FB /* CollectionService.swift in Sources */,
+				006D152627F0899200D024FB /* ResponseMapper.swift in Sources */,
+				006D152C27F08AF200D024FB /* URLResponseErrorHandler.swift in Sources */,
+				006D151427F07AA600D024FB /* HTTPPathPattern.swift in Sources */,
+				006D151E27F0827300D024FB /* URLRequestBuilder.swift in Sources */,
+				006D151A27F0808C00D024FB /* NetworkAssembly.swift in Sources */,
+				006D153127F08DF000D024FB /* CollectionStats.swift in Sources */,
 				006D150127F0777800D024FB /* ViewController.swift in Sources */,
+				006D151227F07A5400D024FB /* HTTPRequest.swift in Sources */,
+				006D151827F07D7F00D024FB /* Constants.swift in Sources */,
 				006D14FD27F0777800D024FB /* AppDelegate.swift in Sources */,
 				006D14FF27F0777800D024FB /* SceneDelegate.swift in Sources */,
 			);
@@ -217,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,6 +484,7 @@
 		};
 		006D150E27F0777800D024FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A6E03CF231452FEEBB43946 /* Pods-TrackerNFT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,6 +493,7 @@
 				DEVELOPMENT_TEAM = XCX28JQZBS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TrackerNFT/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NFT tracker";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -312,6 +514,7 @@
 		};
 		006D150F27F0777800D024FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00CF4D6E97B3CFBE3ADF2838 /* Pods-TrackerNFT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,6 +523,7 @@
 				DEVELOPMENT_TEAM = XCX28JQZBS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TrackerNFT/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NFT tracker";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

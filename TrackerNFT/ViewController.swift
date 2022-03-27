@@ -7,13 +7,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
+    private lazy var collectionService: CollectionServiceInterface = {
+        ServiceAssembly.collectionService
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        collectionService
+            .fetchStats(collectionName: NFTCollection.cryptoongoonz.rawValue)
+            .continueOnSuccessWith { collectionStats in
+                print(collectionStats)
+            }
+            .continueOnErrorWith { error in
+                print(error)
+        }
     }
-
-
 }
-

@@ -1,0 +1,6 @@
+framework module Pods_TrackerNFT {
+  umbrella header "Pods-TrackerNFT-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Bolts-Swift (1.5.0)
+
+DEPENDENCIES:
+  - Bolts-Swift (= 1.5.0)
+
+SPEC REPOS:
+  trunk:
+    - Bolts-Swift
+
+SPEC CHECKSUMS:
+  Bolts-Swift: afbbaf8c8186e7f769be4afa656949c14087ba44
+
+PODFILE CHECKSUM: 418c9388ea39546e3ef81dd667fea14925d0c526
+
+COCOAPODS: 1.11.2
